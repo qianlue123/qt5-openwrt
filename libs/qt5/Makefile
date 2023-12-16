@@ -44,6 +44,7 @@ define Package/qt5/Default
   TITLE:=qt5
   URL:=http://qt-project.org
   DEPENDS:=+librt +zlib +libstdcpp +libpcre16 +glib2 +libpthread +libudev +libatomic +libmysqlclient @!LINUX_2_6
+  DEPENDS+=+libpcre2-16
 endef
 
 define Package/qt5-core
