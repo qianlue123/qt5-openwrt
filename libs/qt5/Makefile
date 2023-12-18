@@ -19,7 +19,7 @@ PKG_SOURCE_URL:=https://download.qt.io/archive/qt/$(PKG_VERSION)/$(PKG_VERSION).
 PKG_BUILD_DIR=$(BUILD_DIR)/qt-everywhere-src-$(PKG_VERSION).$(PKG_RELEASE)
 PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
-PKG_BUILD_DEPENDS:=libiconv
+PKG_BUILD_DEPENDS:=libiconv-full
 
 PKG_MAINTAINER:=Yaroslav Petrov <info@lank.me>
 
